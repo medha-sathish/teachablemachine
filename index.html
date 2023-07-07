@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            image identification
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="file.css">
+    </head>
+    <body>
+        <center>
+        <h2>Image Recognition</h2>
+        <h4>You can identify the following people</h4>
+        <h6>
+            <hr>mother</hr>
+            <hr>elder sister</hr>
+            <hr>younger sister</hr>
+        <hr></hr>
+        </h6>
+        <h5>webcam</h5>
+        <div id="camera"></div>
+        <br><br>
+        <button onclick="clickpic()">capture image</button>
+        <br><br>
+        <h5>output</h5>
+        <div id="pic"></div>
+        <br><br>
+        <button onclick="check()">identify image</button>
+        <h5>object:<span id="object"></span></h5>
+        <h5>accuracy:<span id="accuracy"></span></h5>
+        </center>
+        <script src="pic.js"></script>
+    </body>
+</html>
+

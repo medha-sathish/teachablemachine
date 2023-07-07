@@ -1,0 +1,30 @@
+body{
+    background:rgb(144, 183, 144);
+    text-align: center;
+    
+}
+#camera,#pic{
+    border:5px white dashed;
+    width: 350px;
+    height: 350px;
+}
+button{
+    background-color: rgb(99, 95, 93);
+    font-size: 20px;
+    color: white;
+    font-family: 'Rowdies', cursive;
+}
+
+h2{
+    font-family: 'Rowdies', cursive;
+}
+h4{
+    font-family: 'Rowdies', cursive;
+}
+h6{
+    font-family: 'Nanum Myeongjo', serif;
+}
+h5{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+}
